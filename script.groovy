@@ -1,7 +1,3 @@
-def buildJar() {
-    echo "building the application..."
-    sh 'npm build'
-} 
 
 def buildImage() {
     echo "building the docker image..."
