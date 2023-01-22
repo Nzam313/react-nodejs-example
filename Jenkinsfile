@@ -10,14 +10,7 @@ pipeline {
                 }
             }
         }
-        stage("build jar") {
-            steps {
-                script {
-                    echo "building jar"
-                    gv.buildJar()
-                }
-            }
-        }
+       
         stage("build image") {
             steps {
                 script {
